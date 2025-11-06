@@ -1,0 +1,65 @@
+.error-container {
+  max-width: 800px;
+}
+
+.error-subtitle {
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
+
+.error-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.error-header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e74c3c;
+}
+
+.error-header h2 {
+  color: #e74c3c;
+  margin: 0;
+}
+
+.error-content {
+  margin-bottom: 1.5rem;
+}
+
+.error-content p {
+  margin: 1rem 0;
+  color: #2c3e50;
+  font-size: 1rem;
+}
+
+.error-type,
+.error-message,
+.error-timestamp {
+  padding: 0.75rem;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  border-left: 4px solid #e74c3c;
+}
+
+.error-note {
+  background-color: #fff3cd;
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 4px solid #ffc107;
+  margin-top: 1.5rem;
+}
+
+.error-note p {
+  margin: 0;
+  color: #856404;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #7f8c8d;
+}
+

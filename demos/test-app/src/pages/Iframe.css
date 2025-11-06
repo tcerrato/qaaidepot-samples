@@ -1,0 +1,36 @@
+.iframe-container {
+  max-width: 1200px;
+}
+
+.iframe-subtitle {
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
+
+.iframe-wrapper {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.demo-iframe {
+  width: 100%;
+  height: 500px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+.iframe-info {
+  background-color: #f0f8ff;
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 4px solid #667eea;
+}
+
+.iframe-info p {
+  margin: 0;
+  color: #2c3e50;
+}
+
