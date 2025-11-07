@@ -1,3 +1,7 @@
+# This is an example GitHub Actions workflow for the self-healing Playwright demo.
+# To use it, rename this file to: self-healing-demo.yml
+# It will then run automatically on pushes to the self-healing-playwright demo.
+
 name: Self-Healing Playwright Demo
 
 on:
