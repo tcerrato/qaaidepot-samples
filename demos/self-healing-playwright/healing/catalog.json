@@ -1,0 +1,28 @@
+{
+  "login.usernameInput": {
+    "primary": "[data-testid='login-username']",
+    "fallbacks": [
+      "#username",
+      "input[name='username']",
+      "input[type='text']",
+      "//input[@placeholder='Username']"
+    ]
+  },
+  "login.passwordInput": {
+    "primary": "[data-testid='login-password']",
+    "fallbacks": [
+      "#password",
+      "input[name='password']",
+      "input[type='password']"
+    ]
+  },
+  "login.submitBtn": {
+    "primary": "[data-testid='login-submit']",
+    "fallbacks": [
+      "button[type='submit']",
+      "button:has-text('Login')",
+      ".submit-button",
+      "//button[contains(text(), 'Login')]"
+    ]
+  }
+}

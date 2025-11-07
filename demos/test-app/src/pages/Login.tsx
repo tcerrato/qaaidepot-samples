@@ -75,6 +75,7 @@ function Login() {
             <label htmlFor="username">Username</label>
             <input
               id="username"
+              data-testid="login-username"
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
@@ -93,6 +94,7 @@ function Login() {
             <label htmlFor="password">Password</label>
             <input
               id="password"
+              data-testid="login-password"
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -107,7 +109,12 @@ function Login() {
             )}
           </div>
 
-          <button type="submit" disabled={isLoading} className="submit-button">
+          <button
+            type="submit"
+            data-testid="login-submit"
+            disabled={isLoading}
+            className="submit-button"
+          >
             {isLoading ? "Logging in..." : "Login"}
           </button>
 

@@ -10,7 +10,8 @@ qaai-langgraph-demos/
 └── demos/               # Individual demo projects
     ├── lang-graph-agent-test-case-creator/
     ├── ai-automation-results-triage/
-    └── test-app/        # React test application for AI demos to test
+    ├── test-app/        # React test application for AI demos to test
+    └── self-healing-playwright/  # Self-healing test automation demo
 ```
 
 ## Getting Started
@@ -74,4 +75,10 @@ See [demos/ai-automation-results-triage/README.md](./demos/ai-automation-results
 A React + Vite test application with various UI scenarios designed to be tested by AI agents. Includes login, CRUD operations, complex forms, file uploads, dialogs, iframes, and error handling.
 
 See [demos/test-app/README.md](./demos/test-app/README.md) for details.
+
+### self-healing-playwright
+
+A demonstration of Tier 1 self-healing test automation using Playwright. Features selector catalog with fallbacks, automatic healing on selector failures, and human-approved catalog updates.
+
+See [demos/self-healing-playwright/README.md](./demos/self-healing-playwright/README.md) for details.
 
