@@ -260,9 +260,27 @@ To add more healing capabilities:
 3. **ML Integration**: Replace heuristic scoring with ML models
 4. **Auto-Healing**: Add confidence thresholds for auto-approval
 
-## CI/CD Integration
+## CI/CD Integration (Optional)
 
-See `.github/workflows/self-healing-demo.yml` for GitHub Actions integration that:
-- Runs tests on every push
-- Prints pending updates if present
-- Fails if pending updates exist (optional)
+A GitHub Actions workflow is available as an example file. To use it:
+
+1. **Enable the workflow**:
+   ```bash
+   # Rename the example file to enable it
+   mv .github/workflows/self-healing-demo.yml.example .github/workflows/self-healing-demo.yml
+   ```
+
+2. **The workflow will**:
+   - Run tests automatically on pushes to `demos/self-healing-playwright/**`
+   - Install dependencies and Playwright browsers
+   - Run the self-healing tests
+   - Print pending selector updates if present
+   - Upload test results as artifacts
+
+3. **To disable it again**:
+   ```bash
+   # Rename back to .example to disable
+   mv .github/workflows/self-healing-demo.yml .github/workflows/self-healing-demo.yml.example
+   ```
+
+**Note**: The workflow is disabled by default (`.example` extension). GitHub Actions only runs `.yml` files, so `.example` files are ignored.
