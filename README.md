@@ -82,3 +82,7 @@ A demonstration of Tier 1 self-healing test automation using Playwright. Feature
 
 See [demos/self-healing-playwright/README.md](./demos/self-healing-playwright/README.md) for details.
 
+## Repository
+
+This repository is maintained by [Elrue Media Group](https://github.com/Elrue-Media-Group).
+
